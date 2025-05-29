@@ -1,13 +1,42 @@
 {
   "model": {
-    "type": "minecraft:range_dispatch",
-    "property": "minecraft:use_duration",
-    "entries": [
+    "type": "minecraft:composite",
+    "models": [
       {
-        "threshold": 0,
-        "model": {
+        "type": "minecraft:condition",
+        "property": "minecraft:keybind_down",
+        "keybind": "key.forward",
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "goos:item/beer_mug"
+        },
+        "on_false": {
           "type": "minecraft:empty"
         }
+      },
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/diamond_sword"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/diamond_axe"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/diamond_pickaxe"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/diamond_shovel"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:item/diamond_hoe"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "goos:item/tools/inverted_diamond_pickaxe"
       }
     ]
   }

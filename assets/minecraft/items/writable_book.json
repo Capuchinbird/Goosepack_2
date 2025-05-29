@@ -7,21 +7,8 @@
 			{
 				"when": "Clipboard",
 				"model": {
-					"type": "minecraft:select",
-					"property": "minecraft:context_dimension",
-					"cases": [
-						{
-							"when": "minecraft:the_nether",
-							"model": {
-								"type": "minecraft:model",
-								"model": "goos:item/clipboard"
-							}
-						}
-					],
-					"fallback": {
-						"type": "minecraft:model",
-						"model": "minecraft:item/writable_book"
-					}
+					"type": "minecraft:model",
+					"model": "goos:item/clipboard"
 				}
 			}
 		],
