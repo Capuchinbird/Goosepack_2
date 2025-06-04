@@ -1,0 +1,9 @@
+{
+	"music.gooseremix": {
+		"category": "master",
+		"sounds": [
+			"music/gooseremix.ogg"
+		],
+		"subtitle": "subtitles.custom.devil_gun_mode"
+	}
+}
