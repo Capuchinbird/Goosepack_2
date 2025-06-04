@@ -14,7 +14,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/netherite_shovel"
+      "model": "minecraft:item/diamond_shovel"
     }
   }
 }
